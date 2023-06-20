@@ -36,7 +36,9 @@ body{
 
 .span-two{
     grid-column: span 2;
+    color: orange;
 }
+
 
 .output{
     grid-column: span 4;
@@ -48,12 +50,14 @@ body{
     padding: 10px;
 }
 
-.output .previous-operand{
-    color: rgba(255,255,255, 0.75);
-    font-size: 1.5rem;
+#previous-output{
+    font-size: 30px;
+    color: white;
 }
 
-.output .current-operand{
+
+#current-output{
+    font-size: 30px;
     color: white;
-    font-size: 2.5rem;
 }
+
